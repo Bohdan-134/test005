@@ -380,7 +380,7 @@
 </div>
 <div class="product-banner1">
 <div class="product-banner-text1">
-<span style="text-decoration: line-through">   19800 RON </span> <br>
+<span style="text-decoration: line-through">  298 RON </span> <br>
 <span> 149 RON </span>
 </div>
 </div>
