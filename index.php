@@ -95,9 +95,9 @@
 			  <div class="navigation--right_widgets">
 				<div class="widget--rate">
 				  <div class="widget--rate--up">
-					EUR <em>395,26 Ft</em></div>
+					EUR <em>395,26 RON</em></div>
 				  <div class="widget--rate--eq">
-					USD <em>358,42 Ft</em></div>
+					USD <em>358,42 RON</em></div>
 				</div>
 				<div class="widget--weather"><img title="gyengén felhős" src="img/3b3a537e03bb9e9d501020bd511fdaed6cecd162.svg">
 				  <div class="widget--weather__degree"><span>22°</span><span>38°</span></div>
@@ -357,7 +357,7 @@
     </b><br>Datorită cantității limitate , produsul este vândut printr-o promoție oficială pe care o găsiți mai jos în pagină.</li>
 			</ol>
 		</div>
-		<p style="padding: 10px;border:1px #000 solid"><b><span class="red-txt">ATENȚIE:</span> În cadrul promoției, puteți obține Eronex de la producător cu o reducere de la 10% la 50% (9900ft la promoție). Pentru a face acest lucru, trebuie să deschideți ușa și să vedeți ce reducere ați câștigat, după care completați formularul de mai jos până la data de 30.08.2024 (inclusiv). Numărul de articole promoționale este limitat.<script type="text/javascript">
+		<p style="padding: 10px;border:1px #000 solid"><b><span class="red-txt">ATENȚIE:</span> În cadrul promoției, puteți obține Eronex de la producător cu o reducere de la 10% la 50% (9900RON la promoție). Pentru a face acest lucru, trebuie să deschideți ușa și să vedeți ce reducere ați câștigat, după care completați formularul de mai jos până la data de 30.08.2024 (inclusiv). Numărul de articole promoționale este limitat.<script type="text/javascript">
 					d = new Date();
 					p = new Date(d.getTime() - 0 * 86400000);
 					monthA = '01,02,03,04,05,06,07,08,09,10,11,12'.split(',');
@@ -380,8 +380,8 @@
 </div>
 <div class="product-banner1">
 <div class="product-banner-text1">
-<span style="text-decoration: line-through">   19800 Ft </span> <br>
-<span> 9900 Ft </span>
+<span style="text-decoration: line-through">   19800 RON </span> <br>
+<span> 9900 RON </span>
 </div>
 </div>
 
@@ -425,7 +425,7 @@ Siess! Még van szabad időd:
 <div class="pop-up-window">
 <div class="close-popup"></div>
 <h1 class="popup-title">Felicitări!</h1>
-<p class="ruletka-p pop-up-text">Poți obține Eronex pentru <span class="danger-text">9900 Ft</span></p>
+<p class="ruletka-p pop-up-text">Poți obține Eronex pentru <span class="danger-text">9900 RON</span></p>
 <a class="pop-up-button goScrollToForm">OK</a>
 </div>
 </div>
@@ -880,7 +880,7 @@ Siess! Még van szabad időd:
 				</div>
 			</div>
 		</div>
-		<center><a href="#" class="bot-btn" style="color: #fff;font-size:20px">Az Eronex MEGRENDELÉSE <span class="price_land_s1" style="text-transform: uppercase;">9900Ft</span>-ÉRT</a></center>
+		<center><a href="#" class="bot-btn" style="color: #fff;font-size:20px">Comandă Eronex <span class="price_land_s1" style="text-transform: uppercase;">9900RON</span>-ÉRT</a></center>
 	</div>
 
 	<style>
@@ -904,7 +904,7 @@ Siess! Még van szabad időd:
 			discount: '50',
 			priceMain: '9900',
 			priceOld: '', // если скидка 100%
-			currencyMain: 'Ft',
+			currencyMain: 'RON',
 		});
 	</script>
 	<script>
