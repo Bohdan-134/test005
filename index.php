@@ -424,8 +424,8 @@ Siess! Még van szabad időd:
 <div class="spin-result-wrapper">
 <div class="pop-up-window">
 <div class="close-popup"></div>
-<h1 class="popup-title">Gratulálunk!</h1>
-<p class="ruletka-p pop-up-text">Az Eronex-t  <span class="danger-text">9900 Ft</span>-ért kaphatod meg!</p>
+<h1 class="popup-title">Felicitări!</h1>
+<p class="ruletka-p pop-up-text">Poți obține Eronex pentru <span class="danger-text">9900 Ft</span></p>
 <a class="pop-up-button goScrollToForm">OK</a>
 </div>
 </div>
