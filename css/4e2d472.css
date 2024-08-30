@@ -1,0 +1,1144 @@
+/* @import '~@fortawesome/fontawesome-free/css/all.min.css'; */
+
+@font-face {
+    font-display: swap;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 100;
+    src: url("../fonts/Inter-Thin.c51873c.woff2") format("woff2"), url("../fonts/Inter-Thin.0f080c4.woff") format("woff")
+}
+
+
+
+.main--tt .navigation__logo svg {
+    width: 100px
+}
+
+@media screen and (min-width:375px) {
+    .main--tt .navigation__logo svg {
+        width: 130px
+    }
+}
+
+@media screen and (min-width:500px) {
+    .main--tt .navigation__logo svg {
+        width: 160px
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .main--tt .navigation__logo svg {
+        width: 190px
+    }
+}
+
+
+
+
+.navigation {
+    background-color: #135;
+    height: 60px;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    color: #fff;
+}
+
+@media screen and (min-width:500px) {
+    .navigation {
+        height: 70px
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .navigation {
+        height: auto;
+        width: 100vw
+    }
+}
+
+.navigation a {
+    cursor: pointer
+}
+
+.navigation__labels {
+    align-items: center;
+    color: var(--white);
+    cursor: pointer;
+    display: flex;
+    font-weight: var(--semibold);
+    justify-items: flex-start
+}
+.navigation__labels  p{
+    margin: 0;
+    font-weight: 700;
+}
+.navigation__labels p {
+    display: none
+}
+
+@media screen and (min-width:768px) {
+    .navigation__labels p {
+        display: inline;
+        display: initial;
+        margin-left: 4px
+    }
+}
+
+.navigation__labels:hover {
+    opacity: .9
+}
+
+.navigation__button {
+    background-color: #fe0;
+    border-radius: 2px;
+    color: #111;
+    cursor: pointer;
+    display: block;
+    font-size: .7rem;
+    font-weight: 700;
+    padding: 4px 7px
+}
+
+.navigation__button:hover {
+    background-color: var(--white-medium);
+    transition: var(--smooth)
+}
+
+.navigation__button:focus {
+    outline: 1px solid hsla(0, 0%, 100%, .5);
+    outline-offset: 3px
+}
+
+@media screen and (min-width:375px) {
+    .navigation__button {
+        font-size: .8rem
+    }
+}
+
+@media screen and (min-width:500px) {
+    .navigation__button {
+        padding: 8px 15px
+    }
+}
+
+.navigation__logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-2px)
+}
+
+.navigation__logo svg {
+    cursor: pointer;
+    height: 33px;
+    width: 80px
+}
+
+@media screen and (min-width:375px) {
+    .navigation__logo svg {
+        width: 84px
+    }
+}
+
+@media screen and (min-width:500px) {
+    .navigation__logo svg {
+        width: 101px
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .navigation__logo svg {
+        height: 38px;
+        width: 120px
+    }
+}
+
+.navigation__items {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px 15px 15px
+}
+
+@media screen and (min-width:500px) {
+    .navigation__items {
+        padding: 15px 20px
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .navigation__items {
+        padding: 20px 50px
+    }
+}
+
+.navigation__items--left,
+.navigation__items--right {
+    align-items: center;
+    display: flex;
+    width: 116px
+}
+
+@media screen and (min-width:500px) {
+
+    .navigation__items--left,
+    .navigation__items--right {
+        width: 240px
+    }
+}
+
+.navigation__items--left .search {
+    fill: #f4f4f1;
+    margin-left: 15px;
+    transform: translateY(2px);
+    width: 20px
+}
+
+@media screen and (min-width:375px) {
+    .navigation__items--left .search {
+        margin-left: 20px
+    }
+}
+
+@media screen and (min-width:500px) {
+    .navigation__items--left .search {
+        margin-left: 30px
+    }
+}
+
+.navigation__items--right {
+    justify-content: flex-end;
+    margin: 0
+}
+
+.navigation__items--right .search {
+    fill: var(--white);
+    margin-top: 3px;
+    width: 24px
+}
+
+.navigation__items--right .profile__btn {
+    display: none
+}
+
+@media screen and (min-width:768px) {
+    .navigation__items--right .profile__btn {
+        align-items: center;
+        color: var(--white);
+        display: flex;
+        font-weight: var(--bold);
+        justify-content: center;
+        margin: 0 15px 0 0
+    }
+
+    .navigation__items--right .profile__btn i {
+        font-size: 1.3rem;
+        margin: 0 7px 0 0
+    }
+}
+
+.navigation__desktop {
+    display: none
+}
+
+@media screen and (min-width:1200px) {
+    .navigation__desktop {
+        align-items: center;
+        background-color: #024;
+        display: flex;
+        justify-content: space-between;
+        padding: 6px 50px 7px
+    }
+}
+
+.navigation__events {
+    height: 100%;
+    width: 100vw
+}
+
+.navigation__events .uefa-2020 {
+    align-items: center;
+    background-color: #19a;
+    background-image: url("");
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    padding: 7px 10px
+}
+
+@media screen and (min-width:500px) {
+    .navigation__events .uefa-2020 {
+        padding: 7px 25px
+    }
+}
+
+@media screen and (min-width:768px) {
+    .navigation__events .uefa-2020 {
+        justify-content: space-between
+    }
+}
+
+@media screen and (min-width:1201px) {
+    .navigation__events .uefa-2020 {
+        padding: 5px 50px 5px 55px
+    }
+}
+
+.navigation__events .uefa-2020__logo {
+    width: 27px
+}
+
+.navigation__events .uefa-2020__logo a {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    width: -moz-max-content;
+    width: max-content
+}
+
+.navigation__events .uefa-2020__logo--icon {
+    width: 27px
+}
+
+@media screen and (min-width:500px) {
+    .navigation__events .uefa-2020__logo--icon {
+        width: 36px
+    }
+}
+
+.navigation__events .uefa-2020__logo--txt {
+    display: none
+}
+
+@media screen and (min-width:768px) {
+    .navigation__events .uefa-2020__logo--txt {
+        display: block;
+        height: 15px;
+        padding-left: 7px
+    }
+}
+
+@media screen and (min-width:500px) {
+    .navigation__events .uefa-2020__logo {
+        width: 36px
+    }
+}
+
+@media screen and (min-width:768px) {
+    .navigation__events .uefa-2020__logo {
+        width: 143px
+    }
+}
+
+.navigation__events .uefa-2020__content {
+    width: 100%
+}
+
+.navigation__events .uefa-2020__list {
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+}
+
+@media screen and (min-width:768px) {
+    .navigation__events .uefa-2020__list {
+        justify-content: flex-end
+    }
+}
+
+.navigation__events .uefa-2020__list__item {
+    color: var(--white);
+    font-size: .88rem;
+    font-weight: var(--bold);
+    padding: 0 0 0 7px
+}
+
+@media screen and (min-width:768px) {
+    .navigation__events .uefa-2020__list__item {
+        font-size: 1rem;
+        padding: 0 7px 0 0
+    }
+}
+
+.navigation__events .uefa-2020__list .uefa-2020__event--button {
+    display: inline;
+    display: initial
+}
+
+.navigation__events .uefa-2020__event {
+    align-items: center;
+    color: var(--white);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: .7rem;
+    font-weight: var(--medium);
+    padding: 2px 2px 0 10px
+}
+
+@media screen and (min-width:768px) {
+    .navigation__events .uefa-2020__event {
+        flex-direction: row;
+        font-size: .9rem;
+        padding: 0 2px 0 10px
+    }
+}
+
+.navigation__events .uefa-2020__event--txt__mscreen {
+    align-items: center;
+    color: var(--white);
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2px
+}
+
+@media screen and (min-width:768px) {
+    .navigation__events .uefa-2020__event--txt__mscreen {
+        margin: 0
+    }
+}
+
+.navigation__events .uefa-2020__event--txt__mscreen svg {
+    height: 11px;
+    margin-right: 6px;
+    padding-bottom: 2px
+}
+
+@media screen and (min-width:768px) {
+
+    .navigation__events .uefa-2020__event--txt__mscreen div,
+    .navigation__events .uefa-2020__event--txt__mscreen svg {
+        display: none
+    }
+}
+
+.navigation__events .uefa-2020__event--txt__content {
+    align-items: center;
+    display: flex;
+    height: 18px;
+    justify-content: flex-start
+}
+
+.navigation__events .uefa-2020__event--txt__content>span {
+    font-size: .8rem;
+    margin: 0 3px
+}
+
+.navigation__events .uefa-2020__event--txt__content .uefa-2020__status {
+    display: none
+}
+
+@media screen and (min-width:768px) {
+    .navigation__events .uefa-2020__event--txt__content .uefa-2020__status {
+        color: var(--white);
+        display: inline;
+        display: initial;
+        font-size: .9rem;
+        font-weight: var(--semibold);
+        padding-right: 2px
+    }
+}
+
+.navigation__events .uefa-2020__event--txt__content .uefa-2020__status span {
+    color: var(--white) !important;
+    margin-right: 4px
+}
+
+.navigation__events .uefa-2020__event--button {
+    display: none;
+    transform: translateY(-2px)
+}
+
+.navigation__events .uefa-2020__event--button a {
+    border: 1px solid hsla(0, 0%, 100%, .7);
+    border-radius: 3px;
+    color: var(--white);
+    font-size: .7rem;
+    font-weight: var(--bold);
+    margin-left: 8px;
+    padding: 4px 8px
+}
+
+.navigation__events .uefa-2020__event--button a:hover {
+    background-color: var(--white);
+    color: #19a
+}
+
+.navigation__events .uefa-2020__event--button a:active {
+    opacity: .8
+}
+
+.navigation__events .uefa-2020__event--button a:focus {
+    outline: 1px solid hsla(0, 0%, 100%, .5);
+    outline-offset: 3px
+}
+
+@media screen and (min-width:768px) {
+    .navigation__events .uefa-2020__event--button {
+        display: inline;
+        display: initial
+    }
+}
+
+.navigation__events .uefa-2020__status {
+    color: var(--white);
+    display: flex;
+    font-weight: var(--semibold);
+    transform: translateY(-1px)
+}
+
+.navigation__events .uefa-2020__status span {
+    font-size: .6rem
+}
+
+@media screen and (min-width:768px) {
+    .navigation__events .uefa-2020__status {
+        transform: none
+    }
+
+    .navigation__events .uefa-2020__status span {
+        font-size: .8rem
+    }
+}
+
+.navigation__events .uefa-2020__status .livetag {
+    color: var(--white);
+    display: block;
+    font-size: .7rem;
+    position: relative;
+    transform: translateY(-1px)
+}
+
+@media screen and (min-width:768px) {
+    .navigation__events .uefa-2020__status .livetag {
+        display: inline;
+        display: initial;
+        top: -1px
+    }
+
+    .navigation__events .uefa-2020__status .livetag:before {
+        top: 2px
+    }
+}
+
+.navigation__events .uefa-2020__players {
+    align-items: center;
+    color: var(--white);
+    display: flex;
+    transform: translateX(-6px);
+    white-space: nowrap
+}
+
+@media screen and (min-width:330px) {
+    .navigation__events .uefa-2020__players {
+        transform: none
+    }
+}
+.user_logo_icon{
+    width: 24px;
+    margin-right: 5px;
+}
+.navigation__events .uefa-2020__flag {
+    align-items: center;
+    background-color: var(--white);
+    border: 1px solid hsla(0, 0%, 100%, .7);
+    border-radius: 2px;
+    display: none;
+    height: 14px;
+    justify-content: center;
+    overflow: hidden;
+    width: 19px
+}
+
+@media screen and (min-width:330px) {
+    .navigation__events .uefa-2020__flag {
+        display: flex
+    }
+}
+
+.navigation__events .uefa-2020__flag img {
+    height: 18px;
+    width: 18px
+}
+
+.navigation__events .uefa-2020__score {
+    font-size: .8rem;
+    font-weight: var(--bold)
+}
+
+@media screen and (min-width:330px) {
+    .navigation__events .uefa-2020__score {
+        font-size: 1rem;
+        margin: 1px !important
+    }
+}
+
+.navigation__events .uefa-2020__team {
+    margin: 0 5px
+}
+
+.navigation__events .tokyo-2020 {
+    background: #771a2a linear-gradient(90deg, #771a2a, #cc4f6f 75%);
+    color: var(--white);
+    height: 45px;
+    overflow: hidden
+}
+
+@media screen and (min-width:500px) {
+    .navigation__events .tokyo-2020 {
+        height: 49px
+    }
+}
+
+.navigation__events .tokyo-2020__bar {
+    align-items: center;
+    display: flex;
+    height: 44px;
+    margin: 0
+}
+
+@media screen and (min-width:500px) {
+    .navigation__events .tokyo-2020__bar {
+        height: 48px;
+        margin: 0 20px 0 0
+    }
+}
+
+@media screen and (min-width:1201px) {
+    .navigation__events .tokyo-2020__bar {
+        justify-content: space-between;
+        margin: 0 50px 0 0
+    }
+}
+
+.navigation__events .tokyo-2020__content {
+    align-items: center;
+    display: flex;
+    font-size: .7rem;
+    font-weight: var(--bold);
+    justify-content: flex-start;
+    line-height: 1.33;
+    transform: translateX(-20px);
+    width: -moz-max-content;
+    width: max-content
+}
+
+@media screen and (min-width:500px) {
+    .navigation__events .tokyo-2020__content {
+        font-size: .88rem
+    }
+}
+
+@media screen and (min-width:1201px) {
+    .navigation__events .tokyo-2020__content {
+        transform: translateX(0)
+    }
+}
+
+.navigation__events .tokyo-2020__logo {
+    background-image: url("");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    height: 44px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 142px
+}
+
+@media screen and (min-width:500px) {
+    .navigation__events .tokyo-2020__logo {
+        height: 48px;
+        margin-right: 20px;
+        width: 155px
+    }
+}
+
+.navigation__events .tokyo-2020__logo:hover {
+    opacity: .95;
+    transition: opacity .3s
+}
+
+.navigation__events .tokyo-2020__event {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    white-space: nowrap
+}
+
+.navigation__events .tokyo-2020__event span {
+    display: none
+}
+
+@media screen and (min-width:500px) {
+    .navigation__events .tokyo-2020__event {
+        align-items: center;
+        flex-direction: row
+    }
+
+    .navigation__events .tokyo-2020__event span {
+        display: block;
+        margin: 0 7px
+    }
+}
+
+.navigation__events .tokyo-2020__button {
+    display: none
+}
+
+@media screen and (min-width:768px) {
+    .navigation__events .tokyo-2020__button {
+        border: 1px solid hsla(0, 0%, 100%, .7);
+        border-radius: 3px;
+        color: var(--white);
+        display: block;
+        font-size: .8rem;
+        font-weight: var(--bold);
+        margin-left: 8px;
+        padding: 5px 8px;
+        transform: translateY(-1px)
+    }
+
+    .navigation__events .tokyo-2020__button:hover {
+        background-color: var(--white);
+        color: #771a2a;
+        transition: background-color .6s, color .6s, border .6s
+    }
+
+    .navigation__events .tokyo-2020__button:active {
+        opacity: .8
+    }
+
+    .navigation__events .tokyo-2020__button:focus {
+        outline: 1px solid hsla(0, 0%, 100%, .5);
+        outline-offset: 3px
+    }
+}
+
+.navigation__events .tokyo-2020__article_title {
+    -ms-overflow-style: none;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 34px;
+    line-height: 1.3 !important;
+    overflow: scroll;
+    scrollbar-width: none;
+    transform: translateX(-20px);
+    width: auto
+}
+
+.navigation__events .tokyo-2020__article_title::-webkit-scrollbar {
+    display: none
+}
+
+.navigation__events .tokyo-2020__article_title a {
+    color: #fff;
+    font-size: .7rem;
+    font-weight: 700;
+    max-height: 34px;
+    text-align: left;
+    width: calc(100% + 10px)
+}
+
+.navigation__events .tokyo-2020__article_title a:hover {
+    opacity: .85
+}
+
+@media screen and (min-width:500px) {
+    .navigation__events .tokyo-2020__article_title {
+        overflow: hidden;
+        transform: translateX(-30px)
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .navigation__events .tokyo-2020__article_title {
+        transform: none
+    }
+
+    .navigation__events .tokyo-2020__article_title a {
+        font-size: .9rem
+    }
+}
+
+.navigation__events .election-2022--nav {
+    align-items: center;
+    background: #79e;
+    background: linear-gradient(167deg, #79e, #9b9 36%, #9b9 54%, #79e);
+    border-bottom: 1px solid var(--color-nav-mid-light);
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 7px 20px 7px 25px
+}
+
+@media screen and (min-width:1200px) {
+    .navigation__events .election-2022--nav {
+        padding: 7px 50px
+    }
+}
+
+.navigation__events .election-2022--nav__logo {
+    align-content: center;
+    display: grid;
+    height: 26px;
+    justify-content: center;
+    place-content: center
+}
+
+@media screen and (min-width:768px) {
+    .navigation__events .election-2022--nav__logo {
+        height: 30px
+    }
+}
+
+.navigation__events .election-2022--nav__button {
+    background: var(--white);
+    border: 1px solid var(--secondary);
+    color: var(--secondary);
+    font-size: .88rem;
+    padding: 4px 15px;
+    white-space: nowrap
+}
+
+.navigation__events .election-2022--nav__button:hover {
+    background: rgba(var(--white), .8)
+}
+
+.navigation__events .election-2022--nav__button.m-screen {
+    display: none
+}
+
+@media screen and (min-width:500px) {
+    .navigation__events .election-2022--nav__button.m-screen {
+        display: block
+    }
+}
+
+.navigation__events .election-2022--nav__button.s-screen {
+    display: block
+}
+
+@media screen and (min-width:500px) {
+    .navigation__events .election-2022--nav__button.s-screen {
+        display: none
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    .navigation--left_widgets,
+    .navigation--right_widgets {
+        align-items: center;
+        display: flex;
+        min-width: 260px
+    }
+}
+
+.navigation--right_widgets {
+    justify-content: flex-end
+}
+
+@media screen and (min-width:1200px) {
+    .navigation--menu_list {
+        align-items: center;
+        display: flex
+    }
+
+    .navigation--menu_list a {
+        color: var(--white);
+        font-size: .6rem;
+        font-weight: var(--medium);
+        padding: 0 7px;
+        text-transform: uppercase
+    }
+
+    .navigation--menu_list a:hover {
+        opacity: .85
+    }
+}
+
+.mobile-widgets {
+    align-items: center;
+    background-color: var(--color-general);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 61px;
+    padding: 5px
+}
+
+.mobile-widgets .widget--date,
+.mobile-widgets .widget--rate,
+.mobile-widgets .widget--weather {
+    margin: 2px 4px
+}
+
+.widget--date,
+.widget--rate {
+    color: var(--white);
+    display: inline-flex;
+    font-size: .66rem
+}
+
+.widget--date p,
+.widget--rate p {
+    padding: 0 5px
+}
+
+.widget--date div:first-child:after {
+    content: "–";
+    padding: 0 5px
+}
+
+.widget--date div:last-child {
+    font-weight: var(--semibold)
+}
+
+.widget--rate {
+    font-weight: var(--medium)
+}
+
+.widget--rate--dn {
+    color: #0fb;
+    padding-left: 5px
+}
+
+.widget--rate--dn:after {
+    color: #0fb;
+    content: "▼";
+    font-size: .4rem;
+    right: 6px;
+    top: 5px
+}
+
+.widget--rate--eq {
+    color: #8df;
+    padding-left: 5px
+}
+
+.widget--rate--eq:after {
+    color: #8df;
+    content: "="
+}
+
+.widget--rate--up {
+    color: #ebb;
+    padding-left: 5px
+}
+
+.widget--rate--up:after {
+    color: #ebb;
+    content: "▲";
+    font-size: .4rem;
+    right: 6px;
+    top: 4px
+}
+
+.widget--rate>div {
+    padding-right: 17px;
+    position: relative
+}
+
+.widget--rate>div:after {
+    position: absolute
+}
+
+.widget--weather {
+    align-items: center;
+    display: flex;
+    font-weight: var(--regular)
+}
+
+.widget--weather img {
+    height: 17px;
+    margin-right: 2px;
+    width: 18px
+}
+
+.widget--weather__degree {
+    flex-direction: row;
+    font-size: .66rem
+}
+
+.widget--weather__degree>:first-child {
+    color: #8df
+}
+
+.widget--weather__degree>:nth-child(2) {
+    color: #ebb
+}
+
+.burger-wrapper {
+    display: flex;
+    height: 0;
+    justify-content: flex-end;
+    padding-right: 10px
+}
+
+
+.scroll-down .navigation {
+    transform: translate3d(0, -100%, 0);
+    transition: var(--smooth)
+}
+
+.scroll-down .navigation__desktop,
+.scroll-down .navigation__events {
+    display: none;
+    transition: var(--smooth)
+}
+
+.scroll-down .birthday-widget-mini,
+.scroll-down .transtelex-line-mini {
+    display: grid
+}
+
+.single_article .birthday-widget-mini {
+    display: none
+}
+
+@media screen and (min-width:768px) {
+    .scroll-down .single_article .birthday-widget-mini {
+        display: flex
+    }
+}
+
+.scroll-up .navigation {
+    transition: var(--smooth)
+}
+
+.scroll-up .navigation__desktop,
+.scroll-up .navigation__events {
+    display: none;
+    transition: var(--smooth)
+}
+
+@media screen and (min-width:1200px) {
+
+    .scroll-up .main--t .navigation__logo--article,
+    .scroll-up .main--t .navigation__logo--home {
+        width: 101px
+    }
+
+    .scroll-up .main--tt .navigation__logo--article,
+    .scroll-up .main--tt .navigation__logo--home {
+        width: 160px
+    }
+
+    .scroll-up .navigation__items {
+        padding: 10px 50px
+    }
+
+    .scroll-up .main--t .navigation__logo svg {
+        width: 101px
+    }
+}
+
+.navigation--support .navigation__items--left>div:nth-child(2) {
+    display: none
+}
+
+.opacity-mode #theme_widget {
+    margin-right: 0
+}
+
+.opacity-mode .shop-widget a {
+    margin: 0 0 0 20px;
+    padding: 0 0 0 15px
+}
+
+.opacity-mode .navigation__events,
+.opacity-mode .search,
+.opacity-mode .search__label {
+    display: none
+}
+
+@media screen and (min-width:1200px) {
+    .opacity-mode .navigation__button {
+        margin-right: 0
+    }
+}
+
+.opacity-mode .navigation__desktop {
+    background-color: transparent;
+    visibility: hidden
+}
+
+.opacity-mode #theme_widget svg,
+.opacity-mode .burger-button span,
+.opacity-mode .navigation__labels p,
+.opacity-mode .navigation__logo svg {
+    filter: drop-shadow(0 0 16px #999)
+}
+
+
+
+.scroll-up .opacity-mode #theme_widget svg,
+.scroll-up .opacity-mode .burger-button span,
+.scroll-up .opacity-mode .navigation__labels p,
+.scroll-up .opacity-mode .navigation__logo svg {
+    filter: drop-shadow(0 0 0 #999)
+}
+
+.burger-button {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    display: block;
+    height: 30px;
+    pointer-events: all;
+    position: relative;
+    transition: transform .6s cubic-bezier(.165, .84, .44, 1);
+    width: 40px;
+    z-index: 999
+}
+
+.burger-bar {
+    background-color: #fff;
+    height: 2px;
+    left: 6px;
+    margin-top: -1px;
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    width: auto
+}
+
+.burger-bar--1 {
+    transform: translateY(-6px)
+}
+
+.burger-bar--2 {
+    transform-origin: 100% 50%
+}
+
+.burger-button:hover .burger-bar--2,
+.no-touchevents .burger-bar--2:hover {
+    transform: scaleX(1)
+}
+
+.burger-bar--3 {
+    transform: translateY(6px)
+}
+
+#burger.active .burger-button {
+    display: none
+}
+
+#burger.active .burger-bar--1 {
+    transform: rotate(45deg)
+}
+
+#burger.active .burger-bar--2 {
+    opacity: 0
+}
+
+#burger.active .burger-bar--3 {
+    transform: rotate(-45deg)
+}
